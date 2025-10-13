@@ -7,10 +7,7 @@
     {
       "name": "my-first-plugin",
       "version": "2.0.0",
-      "source": {
-        "source": "github",
-        "repo": "samuelgarrett/claude-code-plugin-test"
-      },
+      "source": "./my-first-plugin",
       "description": "My first test plugin"
     }
   ]
