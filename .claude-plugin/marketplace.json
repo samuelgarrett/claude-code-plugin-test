@@ -1,13 +1,17 @@
 {
-"name": "test-marketplace",
-"owner": {
-"name": "Test User"
-},
-"plugins": [
-{
-  "name": "my-first-plugin",
-  "source": "./my-first-plugin",
-  "description": "My first test plugin"
-}
-]
+  "name": "test-marketplace",
+  "owner": {
+    "name": "Test User"
+  },
+  "plugins": [
+    {
+      "name": "my-first-plugin",
+      "version": "2.0.0",
+      "source": {
+        "source": "github",
+        "repo": "samuelgarrett/claude-code-plugin-test"
+      },
+      "description": "My first test plugin"
+    }
+  ]
 }
