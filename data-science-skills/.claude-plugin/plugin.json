@@ -1,0 +1,9 @@
+{
+  "name": "data-science-skills",
+  "description": "Specialized skills for data analysis, machine learning, and scientific computing with Python",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Skills Marketplace"
+  },
+  "tags": ["data-science", "python", "ml", "pandas", "numpy", "jupyter"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "devops-skills",
+  "description": "Specialized skills for DevOps, CI/CD, containerization, and cloud infrastructure",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Skills Marketplace"
+  },
+  "tags": ["devops", "docker", "kubernetes", "ci-cd", "infrastructure", "cloud"]
+}

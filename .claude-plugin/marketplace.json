@@ -1,14 +1,56 @@
 {
-  "name": "test-marketplace",
+  "name": "claude-skills-marketplace",
   "owner": {
-    "name": "Test User"
+    "name": "Claude Skills Marketplace"
   },
+  "description": "A comprehensive marketplace of Claude Code skills for methodical, efficient, and professional software development across all domains",
   "plugins": [
+    {
+      "name": "core-skills",
+      "version": "1.0.0",
+      "source": "./core-skills",
+      "description": "Essential universal skills for systematic, methodical, and efficient software development across all domains",
+      "category": "Universal",
+      "tags": ["planning", "debugging", "testing", "code-review", "refactoring"]
+    },
+    {
+      "name": "web-dev-skills",
+      "version": "1.0.0",
+      "source": "./web-dev-skills",
+      "description": "Specialized skills for modern web development including React, Next.js, APIs, and frontend optimization",
+      "category": "Domain-Specific",
+      "tags": ["web", "react", "nextjs", "api", "frontend", "performance"]
+    },
+    {
+      "name": "data-science-skills",
+      "version": "1.0.0",
+      "source": "./data-science-skills",
+      "description": "Specialized skills for data analysis, machine learning, and scientific computing with Python",
+      "category": "Domain-Specific",
+      "tags": ["data-science", "python", "ml", "pandas", "numpy", "jupyter"]
+    },
+    {
+      "name": "devops-skills",
+      "version": "1.0.0",
+      "source": "./devops-skills",
+      "description": "Specialized skills for DevOps, CI/CD, containerization, and cloud infrastructure",
+      "category": "Domain-Specific",
+      "tags": ["devops", "docker", "kubernetes", "ci-cd", "infrastructure", "cloud"]
+    },
+    {
+      "name": "productivity-skills",
+      "version": "1.0.0",
+      "source": "./productivity-skills",
+      "description": "Workflow optimization skills for Git, performance profiling, and security auditing",
+      "category": "Productivity",
+      "tags": ["productivity", "git", "performance", "security", "workflow"]
+    },
     {
       "name": "my-first-plugin",
       "version": "2.0.0",
       "source": "./my-first-plugin",
-      "description": "My first test plugin"
+      "description": "Example plugin (original test plugin)",
+      "category": "Examples"
     }
   ]
 }
