@@ -1,0 +1,9 @@
+{
+  "name": "productivity-skills",
+  "description": "Workflow optimization skills for Git, performance profiling, and security auditing",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Skills Marketplace"
+  },
+  "tags": ["productivity", "git", "performance", "security", "workflow"]
+}

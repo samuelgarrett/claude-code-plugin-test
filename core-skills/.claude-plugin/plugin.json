@@ -1,0 +1,9 @@
+{
+  "name": "core-skills",
+  "description": "Essential universal skills for systematic, methodical, and efficient software development across all domains",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Skills Marketplace"
+  },
+  "tags": ["planning", "debugging", "testing", "code-review", "refactoring", "universal"]
+}
